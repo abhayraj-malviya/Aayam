@@ -48,7 +48,7 @@ public class HomeFragment extends Fragment {
                 try {
 
                     SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
-                    Date futureDate = dateFormat.parse("2020-03-14");
+                    Date futureDate = dateFormat.parse("2023-03-14");
                     Date currentDate = new Date();
                     if (!currentDate.after(futureDate)) {
                         long diff = futureDate.getTime() - currentDate.getTime();
